@@ -26,9 +26,6 @@ module.exports = function(robot){
               "My greatest pain in life is that I will never be able to see myself perform live."
             ]
 
-
-
-
-          return res.send(res.random(images)) + res.send(res.random(quotes));
+          return [res.send(res.random(images)) + res.send(res.random(quotes))];
       });
 }
