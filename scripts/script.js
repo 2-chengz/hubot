@@ -23,7 +23,12 @@ module.exports = function(robot){
               "If Magic Johnson got a cure for A.I.D.S. And all the broke muthaf*ckers past away You tellin me if my grandma was in the N.B.A. Right now she'd be ok?",
               "Yo Taylor, I’m really happy for you, Imma let you finish but...",
               "We all self-conscious. I'm just the first to admit it.",
-              "My greatest pain in life is that I will never be able to see myself perform live."
+              "My greatest pain in life is that I will never be able to see myself perform live.",
+              "I think I do myself a disservice by comparing myself to Steve Jobs and Walt Disney and human beings that we've seen before. It should be more like Willy Wonka... and welcome to my chocolate factory.",
+              "I feel like I’m too busy writing history to read it.",
+              "Fur pillows are hard to actually sleep on.",
+              "I hate when I’m on a flight and I wake up with a water bottle next to me like oh great now I gotta be responsible for this water bottle.",
+              "By 50 percent [I am more influential than] Stanley Kubrick, Apostle Paul, Picasso... f****** Picasso and Escobar. By 50 per cent more influential than any other human being."
             ]
 
           return [res.send(res.random(images)) + res.send(res.random(quotes))];
